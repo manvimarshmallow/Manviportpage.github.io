@@ -10,8 +10,18 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/counter_custom.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-2S0T8ME95P"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+  		gtag('config', 'G-2S0T8ME95P');
+	</script>
 	<body class="is-preload landing">
 		<div id="page-wrapper">
 <!-- Header -->
@@ -251,7 +261,13 @@
 
 		</div>
 
+		<!-- <div class="website-counter-container">
+			<div class="website-counter-text">Website visit count:</div>
+			<div class="website-counter">0</div>
+		</div> -->
+		  <!--<button id="reset">Reset</button>-->
 		<!-- Scripts -->
+			<script src="assets/js/index_counter.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
